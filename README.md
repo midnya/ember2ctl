@@ -2,6 +2,18 @@
 
 A CLI utility to control an Ember2 mug. Because the app sucks. Because of course it does.
 
+## Usage
+
+Get your mug status:
+```
+ember2ctl info
+```
+
+Force the mug to retain to a specific temperature (the whole point of that repository):
+```
+ember2ctl retain <celsius>
+```
+
 ## LLM Usage
 
 This project was virtually entirely generated via LLMs, around May 2026, as a test of what LLMs were "capable" of.
